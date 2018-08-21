@@ -7,7 +7,8 @@ Gjør dette med å kopiere koden i `LED_Blink.in0` inn i din Arduino IDE og full
 Du er ferdig når du har fått en lampe til å blinke av og på. 
 
 
-## Utstyr for oppgaven:
+## Utstyr for denne oppgaven:
+Du trenger:
 * [Èn LED lampe](http://a.pragprog.com/magazines/2010-07/images/leds__4z1zpv__.jpg)  (alle fargerer fungerer)
 * [Èn 220Ω resistor](https://pandaelectronicsbd.com/wp-content/uploads/2017/07/220-ohm.jpg) 
   * **OBS** Merk deg fargene på bildet!  
