@@ -1,0 +1,12 @@
+## Hello World, men med internett
+
+I denne oppgaven skal vi tilbake til  blinkkende lys, men denne gangen skal vi aktivere skru den på med telefonen vår. Denne oppgaven krever at du har Blynk installert. 
+
+Du har klart denne oppgaven når du har fått til å skru et lys av og på fra telefonen din. 
+
+## Start med Blynk 
+[Følg denne guiden](https://www.blynk.cc/getting-started/) for å komme i gang. Når du klarer å få opp Blynk-logoen i seriell-monitor har du fått det til. 
+
+## Koble på Lampe 
+    
+
