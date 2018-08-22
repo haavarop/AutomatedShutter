@@ -1,12 +1,10 @@
 ## Motorspin
 
-Man får desverre ikke styrt så mange persienner med å blinke en lampe. Men koden vi har skrevet kan kanskje det likevel? 
-
-I denne oppgaven skal vi bytte ut lyset med en motor og få den å spinne. Først med klokken, så mot klokken. 
+Man får desverre ikke styrt så mange persienner med å blinke en lampe. Men koden vi har skrevet kan kanskje det likevel? I denne oppgaven skal vi bytte ut lyset med en motor og få den å spinne. Først med klokken, så mot klokken. 
 
 ## Utstyr for denne oppgaven
 Du trenger:
- * [Èn DC Motor](https://www.makerlab-electronics.com/my_uploads/2017/06/DC-motor.jpg) 
+ * [En DC Motor](https://www.makerlab-electronics.com/my_uploads/2017/06/DC-motor.jpg) Du trenger ikke nødvendigvis en som ser helt slik ut. 
  * [L298N H-Bridge](http://tinkbox.ph/sites/tinkbox.ph/files/field/product/m37-3.jpg)
  * [Ledninger (male-to-male)](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-IMG_6236wht.jpg?w=800)
 

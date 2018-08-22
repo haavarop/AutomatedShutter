@@ -1,8 +1,6 @@
 ## Hello World! 
 
-Før vi kommer i gang med selve oppgaven, må vi sjekke at alt fungerer, dette gjør vi med å si hallo til verden! 
-
-Gjør dette med å kopiere koden i `LED_Blink.in0` inn i din Arduino IDE og fullføre koden! 
+Før vi kommer i gang med selve oppgaven, må vi sjekke at alt fungerer, dette gjør vi med å si hallo til verden! Gjør dette med å kopiere koden i `LED_Blink.ino` inn i din Arduino IDE og fullføre koden! 
 
 Du er ferdig når du har fått en lampe til å blinke av og på. 
 
