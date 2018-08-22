@@ -1,3 +1,34 @@
+#define BLYNK_PRINT Serial
+
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+// Use this pin
+const int ledPin = D7;
+
+// You should get Auth Token in the Blynk App.
+// Go to the Project Settings (nut icon).
+char auth[] = "YOUR AUTH TOKEN";
+
+// Your WiFi credentials.
+char ssid[] = "Hackerspace Kurs"; // Your mobile phone must be on the same network
+char pass[] = ""; //No password is required
+
+void setup() {
+  // Debug console
+  Serial.begin(9600);
+
+  // Starts Blynk
+  Blynk.begin(auth, ssid, pass);
+
+  /* INSERT CODE HERE */ 
+
+}
+
+void loop() {
+  Blynk.run();
+}
+
 /*************************************************************
   Download latest Blynk library here:
     https://github.com/blynkkk/blynk-library/releases/latest
@@ -26,44 +57,3 @@
  *************************************************************/
 
 /* Comment this out to disable prints and save space */
-#define BLYNK_PRINT Serial
-
-#include <ESP8266WiFi.h>
-#include <BlynkSimpleEsp8266.h>
-
-// Use this pin
-const int ledPin = D7;
-
-// You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
-char auth[] = "YOUR AUTH TOKEN";
-
-// Your WiFi credentials.
-// Set password to "" for open networks.
-char ssid[] = "Hackerspace Kurs"; // Husk å koble mobilen på samme nettverk
-char pass[] = ""; // Ingen passord på nettet
-
-// This function will be called every time Slider Widget
-// in Blynk app writes values to the Virtual Pin 1
-BLYNK_WRITE(V1) {
-  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
-  Serial.print("V1 Slider value is: "); // Check Seriel monitor if data is received from Blynk app
-  Serial.println(pinValue);
-
-  /* INSERT CODE HERE */
-
-}
-
-void setup() {
-  // Debug console
-  Serial.begin(9600);
-
-  // Starts Blynk
-  Blynk.begin(auth, ssid, pass);
-}
-
-// Don't put code here
-void loop() {
-  Blynk.run();
-}
-
