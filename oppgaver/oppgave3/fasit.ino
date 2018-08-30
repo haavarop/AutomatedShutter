@@ -17,9 +17,6 @@ char pass[] = ""; // Ingen passord på nettet
 // in Blynk app writes values to the Virtual Pin 1
 BLYNK_WRITE(V1) {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
-  Serial.print("V1 Slider value is: "); // Check Seriel monitor if data is received from Blynk app
-  Serial.println(pinValue);
-
   if(pinValue == 1) {
       digitalWrite(ledPin, HIGH);
   }
@@ -29,6 +26,7 @@ BLYNK_WRITE(V1) {
 }
 
 void setup() {
+  pinMode(ledPin, OUTPUT);
 
   // Starts Blynk
   Blynk.begin(auth, ssid, pass);
