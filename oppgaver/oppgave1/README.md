@@ -9,8 +9,12 @@ Du er ferdig når du har fått en lampe til å blinke av og på.
 Du trenger:
 * [Èn LED lampe](http://a.pragprog.com/magazines/2010-07/images/leds__4z1zpv__.jpg)  (alle fargerer fungerer)
 * [Èn 220Ω resistor](https://pandaelectronicsbd.com/wp-content/uploads/2017/07/220-ohm.jpg) 
-  * **OBS** Merk deg fargene på bildet!  
+  * **OBS** Merk deg fargene på resitoren på bildet!  
 * [Ledninger (male-to-male)](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-IMG_6236wht.jpg?w=800)
+
+Kretsene burde se ca slik ut: 
+
+![ledkrests](oppgave1.png)
 
 ## Kode 
 For å styre en lampe trenger du: 
