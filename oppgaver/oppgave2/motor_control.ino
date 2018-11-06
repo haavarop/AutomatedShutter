@@ -1,4 +1,4 @@
-
+// Koble disse to i IN1 og IN2 på motorkontrollbrettet
 const int clockWisePin = D7;
 const int counterClockWisePin = D6;
 
@@ -8,23 +8,23 @@ void setup() {
 }
 
 void loop() {
-  // Put calls to the functions beneath in here
-
-  /* INSERT CODE HERE */ 
+  // Her kan du bruke funksjonene som er laget under
+  // Klarer du å få motoren til å spinne med klokken i 1000ms, så 1000ms mot klokken? 
+  // Funksjonkall ser slik ut: spinClockWise();
 
 }
 
-// To make our code less messy
-// put motor logic in functions 
 
+// Denne metoden får motoren til å spinne med klokken 
 void spinClockWise() {
-
-    /* INSERT CODE HERE */ 
-
+  digitalWrite(counterClockWisePin, LOW);
+  delay(200);
+  digitalWrite(clockWisePin, HIGH);
 }
 
+// Denne metoden får motoren til å spinne mot klokken 
 void spinCounterClockWise() {
-
-    /* INSERT CODE HERE */ 
-
+  digitalWrite(clockWisePin, LOW);
+  delay(200);
+  digitalWrite(counterClockWisePin, HIGH);
 }
