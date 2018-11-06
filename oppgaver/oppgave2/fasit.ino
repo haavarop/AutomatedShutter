@@ -15,13 +15,13 @@ void loop() {
 }
 
 void spinClockWise() {
-  digitalWrite(closeShutterPin, LOW);
+  digitalWrite(counterClockWisePin, LOW);
   delay(200);
-  digitalWrite(openShutterPin, HIGH);
+  digitalWrite(clockWisePin, HIGH);
 }
 
 void spinCounterClockWise() {
-  digitalWrite(openShutterPin, LOW);
+  digitalWrite(clockWisePin, LOW);
   delay(200);
-  digitalWrite(closeShutterPin, HIGH);
+  digitalWrite(counterClockWisePin, HIGH);
 }
