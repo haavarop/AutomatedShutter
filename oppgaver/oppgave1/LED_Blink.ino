@@ -1,20 +1,21 @@
-// Use this variable in your code
-// Remember to use this pin on tour board!
+// Bruk denne verdien i koden din
+// Når du skal koble opp kretsen bruk D7 på brettet
 const int ledPin = D7; 
 
 void setup() {
-  // put your setup code here, to run once:
-  // Here we should declare whitch pins we are using!
-
-  /* INSERT CODE HERE */ 
+  // Her forteller vi Arduinoen hva ledPin skal brukes til
+  pinMode(ledPin, OUTPUT);
 
 
 }
 
+// Denne koden utføres gjentatte ganger
 void loop() {
-  // put your main code here, to run repeatedly:
-  // Actual logic for blinking light goes here
 
-  /* INSERT CODE HERE */
+  // For å skru på lyset gjør vi slik:
+  digitalWrite(ledPin, HIGH);
+  delay(500);
+  
+  // Hvordan går du frem for å skru lyset av igjen? 
 
 }
