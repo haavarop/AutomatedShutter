@@ -6,4 +6,4 @@ Dette oppgavesettet inneholder 6 oppgaver (numerert fra 0 til 5).
 Hver oppgave inneholder: 
 * En Oppgavebeskrivelse: Hva dere trenger og litt hjelp 
 * Utdelt skjelettkode: Her skriver dere koden deres
-* Evnetuell fasit
+* Eventuell fasit
