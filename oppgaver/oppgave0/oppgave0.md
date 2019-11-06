@@ -17,4 +17,9 @@ For en mer detaljert guide enn den under kan [klikke her](https://randomnerdtuto
 3. I feltet *Additional Board Manager URLs* lim inn: `http://arduino.esp8266.com/stable/package_esp8266com_index.json` og klikk `OK`
 4. Gå til Tools > Board > Boards Manager ... 
 5. Søk på esp8266 i søkefeltet eller bla deg gjennom til du finner **esp8266 by ESP8266 Community** 
-6. Gå til Tools > Board. Bla deg ned til du finner **Wemos D1 R1** og velg denne. 
+
+
+6. Dersom du bruker den tynnere svarte Arduinoen velger du **ESP8266 Generic Module** (Det er mest sannsynlig denne du bruker)
+  
+**ELLER**
+* Dersom du bruker den blå lede brede Arduinoen: Gå til Tools > Board. Bla deg ned til du finner **Wemos D1 R1** og velg denne.
