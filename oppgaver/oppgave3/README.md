@@ -9,3 +9,10 @@ I denne oppgaven skal vi tilbake til blinkende lys, men denne gangen skal vi akt
 Kretsen til lampen din er lik den brukt tidligere i oppgave 1, men koden er litt annerledes. Du trenger kode som håndterer det å skru lampen av og på når Arduinoen mottar signal fra Blynk. [Dette kan gjøres på forskjellige måter.](http://help.blynk.cc/getting-started-library-auth-token-code-examples/blynk-basics/what-is-virtual-pins)
 
 ![ledkrets](../oppgave1/oppgave1.png)
+
+
+## Lage App i Blynk: 
+Prøv å utforsk Blynk-appen å finn ut hvordan man sette opp selve appen! 
+HINT: Den burde se ca slik ut: 
+
+![selve_appen](app.jpg) ![setup](setup.jpg)
