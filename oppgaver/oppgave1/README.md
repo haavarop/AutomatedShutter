@@ -4,6 +4,7 @@ Før vi kommer i gang med selve oppgaven, må vi sjekke at alt fungerer, dette g
 
 Du er ferdig når du har fått en lampe til å blinke av og på. 
 
+## NB: HUSK Å KOBLE ARDUINO I PCen! 
 
 ## Utstyr for denne oppgaven:
 Du trenger:
